@@ -52,7 +52,6 @@ section{
     display: flex;
     align-items: center;
     background: url(/css/images/cooding.svg) no-repeat;
-    
     background-attachment: fixed;
     background-position: center;
 }
@@ -129,7 +128,7 @@ section{
     background-color: #453cec;
     text-align: center;
     border-radius: 10px;
-    
+    opacity:calc(0.8) ;
 }
 
 
@@ -290,7 +289,7 @@ section{
 }
 
 .footer-title span {
-    color: #6a32ee;
+    color: #f0f0f0;
 }
 
 .footer .social-icons a {
