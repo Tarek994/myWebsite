@@ -51,7 +51,7 @@ section{
     
     display: flex;
     align-items: center;
-    background: url(/css/images/cooding.svg) no-repeat;
+    background: url(./images/cooding.svg) no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
