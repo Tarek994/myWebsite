@@ -51,7 +51,8 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("../images/undraw_programming_re_kg9v.svg") no-repeat ;    
+    background: url("../images/undraw_programming_re_kg9v.svg") no-repeat ;
+    background-size: 700px;  
     background-position: right;
 }
 
