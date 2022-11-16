@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #fff;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
+    opacity: calc(0.95);
 }
 
 .logo{
@@ -48,11 +49,9 @@ section{
 .main{
     width: 100%;
     min-height: 100vh;
-    
     display: flex;
     align-items: center;
-    background: url(../images/undraw_programming_re_kg9v.svg) no-repeat;
-    background-attachment: fixed;
+    background: url("../images/undraw_programming_re_kg9v.svg") no-repeat ;    
     background-position: right;
 }
 
@@ -71,7 +70,7 @@ section{
     padding: 10px 30px;
     border-radius:20px;
     text-align: center;
-    opacity: calc(0.8);
+    
     
 
     
@@ -86,7 +85,7 @@ section{
     border-radius: 20px;
     font-size: 2em;
     font-weight: 600;
-    opacity: calc(0.9);
+    
 
 }
 
@@ -101,7 +100,7 @@ section{
     padding: 12px;
     border-radius: 15px;
     text-align: center;
-    opacity: calc(0.8);
+    
     
 }
 .main-btn{
@@ -128,7 +127,7 @@ section{
     background-color: #453cec;
     text-align: center;
     border-radius: 10px;
-    opacity:calc(0.8) ;
+    
 }
 
 
@@ -298,6 +297,21 @@ section{
     padding: 0 11px 0 0;
 }
 
+@media (max-width:1310px){
+    .main{
+        background-size: 700px;
+    }
+}
+@media (max-width:1200px){
+    .main{
+        background-size: 600px;
+    }
+}
+@media (max-width: 1100px) {
+    .main{
+        background-size: 480px;
+    }
+}
 
 @media (max-width:1023px){
     header {
@@ -312,7 +326,10 @@ section{
     section{
         padding: 80px 20px;
     }
-
+    .main{
+        background-size: 600px;
+    }
+    
     .main-content h2{
         font-size: 0.9em;
     }
@@ -326,13 +343,31 @@ section{
     }
     
 }
+@media (max-width:950px){
+    .main{
+        background-size: 550px;
+    }
+}
+@media (max-width:900px){
+    .main{
+        background-size: 400px;
+    }
+}
+@media (max-width:850px){
+    .main{
+        background-size: 350px;
+    }
+}
 
-@media (max-width:641px){
+@media (max-width:700px){
     body{
         font-size: 12px;
     }
     .main-content h2 {
         font-size: 0.7em;
+    }
+    .main{
+        background-size: 300px;
     }
 
     .main-content h3{
@@ -340,7 +375,32 @@ section{
     }
 }
 
+@media (max-width:570px){
+        .main{
+            flex-direction: column;
+            align-items: center;
+            background-position: center;
+            background-position: bottom;
+            background-size: 250px;
+        }
+        body{
+            font-size: 10px;
+            
+        }
+        
+
+
+
+    }
+
 @media (max-width:300px){
+
+    .main{
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+        background-position: bottom;
+    }
     body{
         font-size: 10px;
         
