@@ -388,12 +388,14 @@ section{
             
         }
         
-
-
-
+    }
+    @media (max-width:570px){
+        body{
+            font-size: 12px;
+        }
     }
 
-@media (max-width:300px){
+@media (max-width:325px){
 
     .main{
         flex-direction: column;
