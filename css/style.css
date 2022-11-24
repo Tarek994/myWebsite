@@ -384,7 +384,11 @@ section{
 }
 
 @media (max-width:570px){
-        .main{
+    .project-card{
+        width: 275px;
+    }   
+    
+    .main{
             flex-direction: column;
             align-items: center;
             display: flex;
