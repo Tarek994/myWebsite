@@ -381,32 +381,24 @@ section{
             flex-direction: column;
             align-items: center;
             display: flex;
-            background-position: center;
-            background-position:center;
+            
+            background-position:bottom;
             background-size: 250px;
-        }
-        body{
-            font-size: 10px;
-            
-        }
-        
-    }
-    @media (max-width:570px){
-        .main{
-            
         }
         body{
             font-size: 12px;
             
         }
+        
     }
+    
 
 @media (max-width:325px){
 
     .main{
         flex-direction: column;
         align-items: center;
-        background-position: center;
+        
         background-position: bottom;
     }
     body{
