@@ -380,8 +380,9 @@ section{
         .main{
             flex-direction: column;
             align-items: center;
+            display: flex;
             background-position: center;
-            background-position: bottom;
+            background-position:center;
             background-size: 250px;
         }
         body{
@@ -391,8 +392,12 @@ section{
         
     }
     @media (max-width:570px){
+        .main{
+            
+        }
         body{
             font-size: 12px;
+            
         }
     }
 
