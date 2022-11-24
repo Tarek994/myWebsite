@@ -342,9 +342,16 @@ section{
         flex-direction: column;
         align-items: center;
     }
+    .project-card{
+        width: 350px;
+    }
     
 }
 @media (max-width:950px){
+    .project-card{
+        width: 350px;
+    }
+    
     .main{
         background-size: 550px;
     }
@@ -381,8 +388,6 @@ section{
             flex-direction: column;
             align-items: center;
             display: flex;
-            
-            
             background-position:bottom;
             background-size: 250px;
         }
@@ -399,7 +404,6 @@ section{
     .main{
         flex-direction: column;
         align-items: center;
-        
         background-position: bottom;
     }
     body{
