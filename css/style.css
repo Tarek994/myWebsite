@@ -391,12 +391,13 @@ section{
     }   
     
     .main{
+            padding-top: 30%;
             flex-direction: column;
             align-items: center;
             display: flex;
             background-position:bottom;
             background-size: 250px;
-            background-position-y:40em ;
+            background-position-y:44em ;
         }
         body{
             font-size: 12px;
