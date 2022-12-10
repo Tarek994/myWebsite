@@ -73,10 +73,7 @@ section{
     padding: 10px 30px;
     border-radius:20px;
     text-align: center;
-    
-    
 
-    
 }
 
 .main h2 span{
@@ -154,7 +151,7 @@ section{
 .content{
     display: flex;
     text-align: center;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -306,17 +303,12 @@ section{
     }
 }
 @media (max-width:1200px){
+    
     .main{
         background-size: 600px;
     }
 }
 @media (max-width: 1100px) {
-    .main{
-        background-size: 480px;
-    }
-}
-
-@media (max-width:1023px){
     header {
         padding: 12px 20px; 
     }
@@ -330,7 +322,87 @@ section{
         padding: 80px 20px;
     }
     .main{
-        background-size: 600px;
+        padding-top: 30%;
+        background-size: 500px;
+        background-position-x: 92%;
+        background-position-y: 75%;
+        min-height: 70vh;
+    }
+    .project-card{
+        width: 40%;
+    }
+    .project-image{
+        width: 30em;
+    }
+    .card{
+        height: 100%;
+        width: 40%;
+    }
+    
+}
+
+@media (max-width:1026px){
+    header {
+        padding: 12px 20px; 
+    }
+    .navigation a {
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.5em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .content{
+        
+        width: 100%;
+        display: flex;
+        flex-direction:initial;
+    }
+    
+    .project-card{
+        width: 42%;
+    }
+    .card{
+        height: 100%;
+        width: 40%;
+     }
+     .main{
+        padding-top: 15em;
+        background-position-x: 90%;
+        background-position-y:80% ;
+        min-height: 70%;
+     }
+     .project-card{
+        width: 40%;
+
+     }
+     .project-image{
+        width: 30em;
+     }
+
+}
+
+
+@media (max-width:1024px){
+    header {
+        padding: 12px 20px; 
+    }
+    .navigation a {
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.5em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main{
+        background-size: 500px;
+        background-position-x: 30em;
+        min-height: 70vh;
+        
     }
     
     .main-content h2{
@@ -345,28 +417,80 @@ section{
         align-items: center;
     }
     .project-card{
-        width: 350px;
+        width: 42%;
     }
-    
+    .card{
+       height: 20em;
+       width: 40%;
+    }
+    .content{
+        display: flex;
+        flex-direction:inherit;
+    }
 }
 @media (max-width:950px){
     .project-card{
-        width: 260px;
+        width: 40%;
     }
     
     .main{
         background-size: 550px;
     }
+    .project-image{
+        width: 30em;
+        height:fit-content;
+        height:20em ;
+        overflow:inherit;
+        display: flex;
+              
+    }
 }
 @media (max-width:900px){
     .main{
         background-size: 400px;
+        background-position-x:28em ;
+        background-position-y:60% ;
+        min-height: 75vh;
     }
+    .card{
+        font-size: 15px;
+        height: 20em;
+    }
+    .content{
+        display:flex ;
+        flex-direction: inherit;
+    }
+    .project-card{
+        width: 42%;
+    }
+    
 }
 @media (max-width:850px){
     .main{
         background-size: 350px;
+        min-height: 75%;
+        background-position-x: 95%;
+        background-position-y: 90%;
     }
+    .project-card{
+        width: 40%;
+        font-size: 15px;
+        
+    }
+    .project-image{
+        width: 30em;
+        height:fit-content;
+        height:20em ;
+        overflow:inherit;
+        display: flex;
+              
+    }
+    .card{
+        height: 21em;
+        width: 40%;
+     }
+     
+    
 }
 
 @media (max-width:700px){
@@ -383,12 +507,20 @@ section{
     .main-content h3{
         font-size: 1.2em;
     }
+    .card{
+        width: 40%;
+        font-size: 11px;
+        height: 40%;
+    }
 }
 
 @media (max-width:570px){
     .project-card{
         width: 275px;
-    }   
+    }
+    .card{
+        width: 80%;
+    }
     
     .main{
             padding-top: 30%;
@@ -398,6 +530,7 @@ section{
             background-position:bottom;
             background-size: 250px;
             background-position-y:44em ;
+            min-height: 60vh;
         }
         body{
             font-size: 12px;
