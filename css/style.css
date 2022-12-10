@@ -454,7 +454,7 @@ section{
     }
     .card{
         font-size: 15px;
-        height: 20em;
+        height: 100%;
     }
     .content{
         display:flex ;
@@ -462,6 +462,9 @@ section{
     }
     .project-card{
         width: 42%;
+    }
+    .project-image{
+        width: 28em;
     }
     
 }
@@ -478,16 +481,16 @@ section{
         
     }
     .project-image{
-        width: 30em;
-        height:fit-content;
-        height:20em ;
+        width: 28em;
+        height:100% ;
         overflow:inherit;
         display: flex;
               
     }
     .card{
-        height: 21em;
+        height: 100%;
         width: 40%;
+        
      }
      
     
@@ -510,13 +513,17 @@ section{
     .card{
         width: 40%;
         font-size: 11px;
-        height: 40%;
+        height: 100%;
     }
 }
 
 @media (max-width:570px){
+    .navigation a{
+        font-size: 10px;
+    }
     .project-card{
-        width: 275px;
+        width: 80%;
+        
     }
     .card{
         width: 80%;
@@ -537,8 +544,21 @@ section{
             
         }
         
+        
     }
-    
+    @media (max-width:470px){
+        .navigation a{
+            font-size: 10px;
+        }
+        .project-image{
+            width: 20.5em;
+            height: 100%;
+            
+        }
+        .project-card{
+            width: 80%;
+        }
+    }
 
 @media (max-width:325px){
 
