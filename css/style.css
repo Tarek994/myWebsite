@@ -299,14 +299,33 @@ section{
 
 @media (max-width:1310px){
     .main{
-        background-size: 700px;
+        background-size: 600px;
+        background-position-x:85%;
+    }
+    section{
+        padding: 50px 100px;
+    }
+    .card{
+        height: 100%;
+        width: 40%;
     }
 }
 @media (max-width:1200px){
-    
-    .main{
-        background-size: 600px;
+    header {
+        padding: 12px 70px; 
     }
+    .navigation a {
+        padding-left: 20px;
+    }
+    section{
+        padding: 50px 100px;
+    }
+    .main{
+        background-size: 450px;
+        background-position-x:90% ;
+        background-position-y:60% ;
+    }
+    
 }
 @media (max-width: 1100px) {
     header {
@@ -318,9 +337,7 @@ section{
     .title{
         font-size: 1.5em;
     }
-    section{
-        padding: 80px 20px;
-    }
+    
     .main{
         padding-top: 30%;
         background-size: 500px;
@@ -329,10 +346,11 @@ section{
         min-height: 70vh;
     }
     .project-card{
-        width: 40%;
+        width:40%;
     }
     .project-image{
-        width: 30em;
+        width: 100%;
+        
     }
     .card{
         height: 100%;
@@ -375,11 +393,11 @@ section{
         min-height: 70%;
      }
      .project-card{
-        width: 40%;
+       width:40% ;
 
      }
      .project-image{
-        width: 30em;
+        width: 100%;
      }
 
 }
@@ -417,7 +435,7 @@ section{
         align-items: center;
     }
     .project-card{
-        width: 42%;
+        
     }
     .card{
        height: 20em;
@@ -461,7 +479,7 @@ section{
         flex-direction: inherit;
     }
     .project-card{
-        width: 42%;
+        width:40% ;
     }
     .project-image{
         width: 26em;
@@ -474,7 +492,7 @@ section{
         background-size: 350px;
         min-height: 75%;
         background-position-x: 95%;
-        background-position-y: 90%;
+        background-position-y: 80%;
     }
     .project-card{
         width: 40%;
@@ -496,7 +514,34 @@ section{
      
     
 }
-
+@media (max-width:810px){
+    .card{
+        height: 100%;
+        width: 40%;
+        
+     }
+    .project-image{
+        width: 32em;
+        height:100% ;
+        overflow:inherit;
+        display: flex;
+              
+    }
+}
+@media (max-width:780px){
+    .card{
+        height: 100%;
+        width: 40%;
+        
+     }
+    .project-image{
+        width: 25em;
+        height:100% ;
+        overflow:inherit;
+        display: flex;
+              
+    }
+}
 @media (max-width:700px){
     body{
         font-size: 12px;
@@ -552,7 +597,7 @@ section{
             font-size: 10px;
         }
         .project-image{
-            width: 20.5em;
+            width: 21.5em;
             height: 100%;
             
         }
@@ -572,6 +617,13 @@ section{
     body{
         font-size: 10px;
         
+    }
+    .main{
+        background: none;
+    }
+    .project-image{
+        width: 15em;
+        height: 100%;
     }
 }
 
