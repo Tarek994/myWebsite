@@ -296,7 +296,40 @@ section{
     color: #fff;
     padding: 0 11px 0 0;
 }
-@media (max-width:1450px){
+
+@media (max-width:2600px){
+    .main{
+        background-position-x:85% ;
+    }
+    .project-image{
+        width: 30em;
+        
+    }
+    .card{
+        height: 100%;
+        width: 40%;
+    }
+}
+@media (max-width:2300px){
+    
+    section{
+        font-size:20px ;
+        padding: 50px 100px;
+
+    }
+    .main{
+        background-position-x:85% ;
+    }
+    .project-image{
+        width: 24em;
+        
+    }
+    .card{
+        height: 100%;
+        width: 40%;
+    }
+}
+@media (max-width:1950px){
     body{
         font-size: 15px;
     }
@@ -304,10 +337,47 @@ section{
         padding: 50px 100px;
     }
     .main{
-        
+        background-position-x:85% ;
     }
     .project-image{
-        width: 30em;
+        width: 25em;
+        
+    }
+    .card{
+        height: 100%;
+        width: 40%;
+    }
+}
+@media (max-width:1750px){
+    body{
+        font-size: 15px;
+    }
+    section{
+        padding: 50px 100px;
+    }
+    .main{
+        background-position-x:85% ;
+    }
+    .project-image{
+        width: 24em;
+        
+    }
+    .card{
+        height: 100%;
+        width: 40%;
+    }
+}
+
+@media (max-width:1450px){
+    body{
+        font-size: 15px;
+    }
+    section{
+        padding: 50px 100px;
+    }
+    
+    .project-image{
+        width: 24em;
         
     }
     .card{
@@ -368,7 +438,7 @@ section{
         width:40%;
     }
     .project-image{
-        width: 100%;
+        width: 23em;
         
     }
     .card{
