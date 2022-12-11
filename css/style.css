@@ -296,7 +296,26 @@ section{
     color: #fff;
     padding: 0 11px 0 0;
 }
-
+@media (max-width:1450px){
+    body{
+        font-size: 15px;
+    }
+    section{
+        padding: 50px 100px;
+    }
+    .main{
+        
+    }
+    .project-image{
+        width: 30em;
+        
+    }
+    .card{
+        height: 100%;
+        width: 40%;
+    }
+    
+}
 @media (max-width:1310px){
     .main{
         background-size: 600px;
