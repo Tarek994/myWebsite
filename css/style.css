@@ -211,7 +211,7 @@ section{
     background-color: #fff;
     border: 1px solid #FFF;
     min-height: 12em;
-    width: 18em;
+    width: 20%;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -232,7 +232,7 @@ section{
 
 .project-image img{
     
-    width: 20em;
+    width: 100%;
     height: 30vh;
 }
 
@@ -309,13 +309,13 @@ section{
     }
     .card{
         height: 100%;
-        width: 40%;
+        width: 20%;
     }
 }
 @media (max-width:2300px){
     
     section{
-        font-size:20px ;
+        
         padding: 50px 100px;
 
     }
@@ -328,13 +328,11 @@ section{
     }
     .card{
         height: 100%;
-        width: 40%;
+        width: 20%;
     }
 }
 @media (max-width:1950px){
-    body{
-        font-size: 15px;
-    }
+    
     section{
         padding: 50px 100px;
     }
@@ -347,13 +345,11 @@ section{
     }
     .card{
         height: 100%;
-        width: 40%;
+        width: 20%;
     }
 }
 @media (max-width:1750px){
-    body{
-        font-size: 15px;
-    }
+    
     section{
         padding: 50px 100px;
     }
@@ -366,28 +362,26 @@ section{
     }
     .card{
         height: 100%;
-        width: 40%;
+        width: 20%;
     }
 }
 
 @media (max-width:1450px){
-    body{
-        font-size: 15px;
-    }
+   
     section{
         padding: 50px 100px;
     }
     
     .project-image{
-        width: 24em;
+        width: 18em;
         
     }
     .card{
         height: 100%;
-        width: 40%;
+        width: 30%;
     }
     
-}
+} 
 
 @media (max-width:1310px){
     .main{
@@ -416,6 +410,10 @@ section{
         background-size: 450px;
         background-position-x:90% ;
         background-position-y:60% ;
+    }
+    .project-image{
+        width: 16em;
+        
     }
     
 }
@@ -494,7 +492,7 @@ section{
 
 }
 
-
+ 
 @media (max-width:1024px){
     header {
         padding: 12px 20px; 
@@ -529,6 +527,7 @@ section{
     .project-card{
         
     }
+    
     .card{
        height: 20em;
        width: 40%;
@@ -667,6 +666,7 @@ section{
         width: 80%;
     }
     
+    
     .main{
             padding-top: 30%;
             flex-direction: column;
@@ -682,19 +682,23 @@ section{
             
         }
         
-        
     }
     @media (max-width:470px){
+        
         .navigation a{
             font-size: 10px;
         }
         .project-image{
-            width: 21.5em;
+            
+            width: 100%;
             height: 100%;
             
         }
         .project-card{
-            width: 80%;
+            width: 100%;
+        }
+        .main{
+            background: none;
         }
     }
 
@@ -718,4 +722,4 @@ section{
         height: 100%;
     }
 }
-
+ 
