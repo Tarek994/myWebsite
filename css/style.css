@@ -231,9 +231,11 @@ section{
 }
 
 .project-image img{
-    width: 100%;
+    
+    width: 20em;
     height: 30vh;
 }
+
 
 .project-info {
     padding: 1em;
@@ -386,6 +388,7 @@ section{
     }
     
 }
+
 @media (max-width:1310px){
     .main{
         background-size: 600px;
