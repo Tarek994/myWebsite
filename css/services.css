@@ -31,7 +31,6 @@
     margin: 1%;
  }
  .cards{
-    
     display: flex;
     text-align: center;
     flex-direction: row;
@@ -45,10 +44,9 @@
     color: #00296b;
     margin: 1%;
     max-width: 218px;
-    
-    
+
  }
- .card img{
+ .services-card img{
     height: 150px;
  }
  .card-text{
