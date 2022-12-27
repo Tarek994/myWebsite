@@ -1,0 +1,129 @@
+header{
+    padding: 2% 1%;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    background-color:#00296b;
+    position: fixed;
+    z-index: 1;
+    
+    
+}
+.total-nav{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fdc500;
+    letter-spacing: 7px;
+}
+.logo:hover{
+    color: #fdc500;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fdc500;
+    padding-right: 5px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    
+}
+.navigation a:hover{
+    color: #fdc500;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    border-bottom: 2px solid #00296b;
+    
+}
+
+.hero{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    padding: 2% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2% 0px 0px;
+}
+
+.first{
+    font-size: 35px;
+    color: #fdc500;
+    background-color:#00296b ;
+    padding: 3%;
+    width: fit-content;
+}
+.position{
+    font-size: 24px;
+    color: #fdc500;
+    background-color:#00296b ;
+    padding: 3%;
+    width: fit-content;
+
+}
+.button{
+   color: #fdc500;
+   border: none;
+   padding: 2% 5%;
+   background-color: #00296b;
+   width: fit-content;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 500;
+   margin-top:5%  ;
+   transition: 0.7s ease;
+ 
+}
+.button:hover{
+    color: #fdc500;
+    transform: scale(1.1);
+}
+
+.social-icons{
+    margin-top: 10px;
+    background-color: #00296b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+}
+
+.social-icons a{
+    color: #fdc500;
+    font-size: 1.5rem;
+    padding: 8px 15px;
+
+}
+.social-icons a:hover{
+    color: #fdc500;
+}
+.right{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 0% 0% 0% 6%;
+    
+ }
+
+ .hero-img{
+    display: flex;
+    justify-content: stretch;
+ }
