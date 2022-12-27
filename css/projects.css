@@ -32,25 +32,36 @@
 }
 .card{
     color: #00296b;
-    margin: 1%;
+    margin:10px 5px;
     max-width: 218px;
     transition: 0.7s ease;
+    padding-bottom: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
 }
+
 .card img{
     height: 150px;
 }
 .project-btn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
     background-color:#00296b ;
     padding: 4% 15%;
     color: #fdc500;
     text-decoration: none;
+    
     
 }
 .project-btn:hover{
     color: #fdc500;
 }
 .card-text{
-    height: 60%;
+    height: 50%;
 }
 .card:hover{
     transform: scale(1.1);
