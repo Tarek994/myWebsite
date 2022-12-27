@@ -23,9 +23,11 @@
         
         width: 40%;
     }
+   
     .hero{
         display: flex;
         justify-content: space-between;
+        
     }
     .first{
         font-size: 25px;
@@ -39,6 +41,7 @@
     .hero-img{
         width: 100%;
     }
+    
     
     
 
@@ -71,7 +74,16 @@
     .social-icons a{
         padding: 1% 5%;
     }
+    .projects-title{
+        padding-top: 60px;
+    }
+    .title{
+        padding-top: 40px;
+    }
 }
+
+
+
 
 @media (max-width: 576px) { 
     
@@ -80,21 +92,23 @@
         flex-direction: column;
         text-align: center;
     }
+    .main{
+        padding-top: 40px;
+    }
     .hero{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-top: 20%;
+        
     }
     .hero-img{
         padding-bottom: 40%;
     }
 
     .social-icons{
-        max-width: 100%;
+        max-width: fit-content;
     }
     .left{
-        
         margin: 20% 0%;
         width: 80%;
         display: flex;
@@ -132,7 +146,10 @@
     }
     .card{
         max-width: 60%;
-        margin-bottom: 5%;
+        margin-bottom: 15%;
+    }
+    .card-body{
+        padding-bottom: 20px;
     }
     .title{
         padding: 10% 0%;
@@ -140,4 +157,25 @@
     .description{
         padding: 10% 0% 20% 0;
     }
- }
+    .services-card{
+        margin-bottom: 15px;
+        border-bottom:solid 1px grey ;
+        height: fit-content;
+        
+    }
+    .projects-title{
+        padding-top: 80px;
+    }
+    .project-btn{
+        margin-bottom: 10px;
+    }
+    
+    
+}
+@media (max-width:321px){
+    .main{
+        padding-top: 40px;
+    }
+    
+    
+}
