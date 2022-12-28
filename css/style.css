@@ -17,10 +17,6 @@
     .navigation a{
         font-size: 12px;
     }
-    .social-icons{
-        
-        width: 40%;
-    }
    
     .hero{
         display: flex;
@@ -39,11 +35,6 @@
     .hero-img{
         width: 100%;
     }
-    
-    
-    
-
-
  }
 
 @media (max-width:768px) { 
@@ -66,10 +57,7 @@
     .position{
         font-size: 20px;
     }
-    .social-icons{
-        width: 80%;
-        padding: 0%;
-    }
+    
     .social-icons a{
         padding: 1% 5%;
     }
@@ -144,7 +132,7 @@
         margin:10px 0px;
     }
     .services{
-        padding-top: 20%;
+        padding-top: 10px;
     }
     .card{
         max-width: 60%;
