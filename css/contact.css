@@ -51,12 +51,14 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
+
     padding: 20px 20px;
 }
 
 .footer-title{
     display: flex;
+    
     color: #fdc500;
 }
 .footer-social-icons a{
