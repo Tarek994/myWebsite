@@ -72,7 +72,7 @@ header{
     
 }
 .position{
-    font-size: 24px;
+    font-size: 20px;
     color: #fdc500;
     background-color:#00296b ;
     padding: 3%;
@@ -130,3 +130,15 @@ header{
     display: flex;
     justify-content: stretch;
  }
+
+
+ @media (max-width:321px){
+    .main{
+        padding-top: 40px;
+    }
+    .position{
+        font-size: 19px;
+    }
+    
+    
+}
