@@ -30,9 +30,9 @@
     flex-wrap: wrap;
     padding:10% 0%;
 }
-.card{
+.card {
     color: #00296b;
-    margin:10px 5px;
+    margin: 10px 5px;
     max-width: 218px;
     transition: 0.7s ease;
     padding-bottom: 2%;
@@ -40,6 +40,7 @@
     text-align: center;
     justify-content: center;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    position: relative;
     
 }
 .card-title1{
