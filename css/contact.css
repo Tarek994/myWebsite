@@ -84,9 +84,10 @@
     }
 }
 
-@media (max-width:570px){
-    .contact-title{
-        margin:20% 0% 10% 0%;
+@media (max-width:570px) {
+    .contact-title {
+        margin: 20% 5% 10% 5%;
+        max-width: 90%;
     }
     .contact-cards{
        margin: auto;
