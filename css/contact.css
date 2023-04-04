@@ -97,9 +97,10 @@
        justify-content: center;
        text-align: center;
     }
-    .contact-card{
-        width: 100%;
-        margin:15px auto;
+
+    .contact-card {
+        width: 85% !important;
+        margin: 15px auto;
     }
     .contact{
         height: 100%;  
