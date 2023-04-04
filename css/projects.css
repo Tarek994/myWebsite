@@ -50,17 +50,19 @@
 .card img{
     height: 150px;
 }
-.project-btn{
+.project-btn {
     display: flex;
-    margin: auto;
+    margin-bottom: 2rem;
     justify-content: center;
     width: 80%;
-    background-color:#00296b ;
+    background-color: #00296b;
     padding: 4% 15%;
     color: #fdc500;
     text-decoration: none;
-    
-    
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .project-btn:hover{
     color: #fdc500;
