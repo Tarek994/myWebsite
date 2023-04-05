@@ -67,9 +67,12 @@
 .project-btn:hover{
     color: #fdc500;
 }
-.card-text{
+
+.card-text {
+    padding-bottom: 70px;
     height: 50%;
 }
+
 /* .card:hover {
     transform: scale(1.1);
 } */
