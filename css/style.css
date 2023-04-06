@@ -152,8 +152,10 @@
     .title{
         padding: 10% 0%;
     }
-    .description{
-        padding: 10% 0% 20% 0;
+
+    .description {
+        max-width: 80%;
+        margin: auto !important;
     }
     .services-card{
         margin-bottom: 15px;
