@@ -134,8 +134,10 @@
     .services{
         padding-top: 10px;
     }
-    .card{
-        max-width: 60%;
+
+    .card {
+        max-width: 80% !important;
+        min-width: 80% !important;
         margin-bottom: 15%;
     }
     .card-body{
